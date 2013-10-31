@@ -1,0 +1,10 @@
+#info-msg {
+    position: absolute;
+    bottom: 50px;
+}
+    
+#main-dialog-menu {
+	position : absolute;
+    bottom : 25px;
+	height : 25px;	
+}
