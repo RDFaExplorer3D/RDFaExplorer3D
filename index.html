@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head vocab="http://ogp.me/ns#">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta property="og:title" content="RDFaExplorer3D-Testpage" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="http://RDFaExplorer3D.github.io/RDFaExplorer3D/" />
+		<title>RDFaExplorer3D-Testpage</title>
+		<base href="http://RDFaExplorer3D.github.io/RDFaExplorer3D/">
+	</head>
+	<body>
+        <div>
+            <h1>RDFaExplorer3D Testpage</h1>
+        </div>
+        <div vocab="http://purl.org/media#" prefix="dc: http://purl.org/dc/terms/">
+
+            <div id="sec-text">
+                <h2>Text</h2>
+                <h3>HTML file</h3>
+                <div resource="text-html">
+                    <a property="dc:format" href="http://RDFaExplorer3D.github.io/RDFaExplorer3D/media/html/Lorem_ipsum.html" title="Lorem ipsum HTML" target="_blank">Lorem ipsum HTML</a>
+                </div>
+                
+                <h3>PDF</h3>
+                <div resource="text-pdf">                    
+                    <a property="dc:format" href="http://RDFaExplorer3D.github.io/RDFaExplorer3D/media/pdf/Lorem_ipsum.pdf" title="Lorem ipsum PDF" target="_blank">Lorem ipsum PDF</a>
+                </div>
+            </div>
+            
+            <div id="sec-image">
+				<h2>Image</h2>
+                <h3>jpeg</h3>
+                <div resource="image-jpg">					   					
+                    <img property="og:image" src="http://RDFaExplorer3D.github.io/RDFaExplorer3D/media/image/Big_Buck_Bunny_Logo_600x265px.jpg" width="600" height="265">
+                </div>				        
+                <h3>png</h3>
+                <div resource="image-png">
+                    <img property="og:image" src="http://RDFaExplorer3D.github.io/RDFaExplorer3D/media/image/Big_Buck_Bunny_Logo_600x265px.png" width="600" height="265">
+                </div>
+                <h3>svg</h3>
+                <div resource="image-svg">
+                    <img property="og:image" src="http://RDFaExplorer3D.github.io/RDFaExplorer3D/media/image/Big_Buck_Bunny_Logo_600x265px.svg" width="600" height="265">
+                </div>
+            </div>
+		  
+            <div id="sec-audio">
+                <h2>Audio</h2>
+                <h3>mp3</h3>
+                <div resource="audio-mp3" typeof="Recording"> 
+                    <audio property="sample" resource="http://RDFaExplorer3D.github.io/RDFaExplorer3D/media/audio/The_Morning_Light_Project-Interface.mp3" controls>
+                        <source src="./media/audio/The_Morning_Light_Project-Interface.mp3" type="audio/mpeg">
+							Your browser does not support the audio element.
+                    </audio>
+                    <p>Title: <span property="dc:title">Interface</span></p>
+                    <p>Creator: <span property="dc:creator">The Morning Light Project</span></p> 
+                </div>
+                <h3>ogg</h3>
+                <div resource="audio-ogg" typeof="Recording">
+                    <audio property="sample" resource="http://RDFaExplorer3D.github.io/RDFaExplorer3D/media/audio/The_Morning_Light_Project-Interface.ogg" controls>
+                        <source src="./media/audio/The_Morning_Light_Project-Interface.ogg" type="audio/ogg">
+                            Your browser does not support the audio element.
+                    </audio>
+                    <p>Title: <span property="dc:title">Interface</span></p>
+                    <p>Creator: <span property="dc:creator">The Morning Light Project</span></p>
+                </div>                                       
+            </div>
+        
+            <div id="sec-video">
+                <h2>Video</h2>    
+                <h3>mp4</h3>
+                <div resource="video-mp4" typeof="Recording">
+                    <video property="sample" resource="http://RDFaExplorer3D.github.io/RDFaExplorer3D/media/video/big_buck_bunny_720p.mp4" controls width="600" height="300">
+				        <source src="./media/video/big_buck_bunny_720p.mp4" type="video/mp4">  
+							Your browser does not support the video tag.
+				    </video>
+
+                    <p>Title: <span property="dc:title">Big Buck Bunny</span></p>
+					<p>Creator: <span property="dc:creator">Sacha Goedegebure</span></p>
+					<p>Published: <span property="http://www.w3.org/2001/XMLSchema#date" content="2008-04-10">10. April 2008</span></p>
+
+                </div>
+                
+                <h3>WebM</h3>
+                <div resource="video-webm" typeof="Recording">
+                    <video property="sample" resource="http://RDFaExplorer3D.github.io/RDFaExplorer3D/media/video/big_buck_bunny_720p.webm" controls width="600" height="300">
+				        <source src="./media/video/big_buck_bunny_720p.webm" type="video/webm">  
+							Your browser does not support the video tag.
+				    </video>
+                    
+                    <p>Title: <span property="dc:title">Big Buck Bunny</span></p>
+					<p>Creator: <span property="dc:creator">Sacha Goedegebure</span></p>
+					<p>Published: <span property="http://www.w3.org/2001/XMLSchema#date" content="2008-04-10">10. April 2008</span></p>
+
+                </div>
+                
+                <h3>ogg</h3>
+                <div resource="video-ogg" typeof="Recording">
+				    <video property="sample" resource="http://RDFaExplorer3D.github.io/RDFaExplorer3D/media/video/big_buck_bunny_720p.ogv" controls width="600" height="300">
+                        <source src="./media/video/big_buck_bunny_720p.ogv" type="video/ogg">
+                            Your browser does not support the video tag.
+                    </video>
+
+                    <p>Title: <span property="dc:title">Big Buck Bunny</span></p>
+					<p>Creator: <span property="dc:creator">Sacha Goedegebure</span></p>
+					<p>Published: <span property="http://www.w3.org/2001/XMLSchema#date" content="2008-04-10">10. April 2008</span></p>
+					
+                </div>
+            </div>	
+        </div>    
+    </body>
+</html>
